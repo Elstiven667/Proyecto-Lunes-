@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ciencia al Día</title>
+        <link rel="stylesheet" href="Estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+ <style>
+      body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #d3d9e0;
+}
+.header img {
+    height: 50px;
+    margin-right: 10px;
+}
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.header h1 i {
+    margin-right: 8px;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #a69e9e;
+}
+.status i {
+    color: green;
+}
+
+ </style>
+</head>
+
+
+<body>
+
+    <header class="header">
+        <img src="images.jpg" alt="Ciencia">
+        <h1><i class="fa-solid fa-flask"></i> Ciencia Al Dia</h1>
+    </header>
+
+    <section>
+       
+        <center><div style="background-color: #a8ccf1;" class="wrapper" h1 class="title" >Inicio de sesión 
+         
+          <form action="" class="form">
+            
+     
+              <div class="inp">
+                  <label for="usuario"></label>
+                  <i class="fa-solid fa-user"></i>
+                  <input type="text" name="usuario" id="usuario" class="input"placeholder="Nombre*" required></input>
+              </div>
+     
+              <div class="inp">
+                 <label for="email"></label>
+                 <i class="fa-solid fa-envelope"></i>
+                 <input type="email" name="email" id="email" class="input" placeholder="Correo*" required></input>
+              </div>
+     
+              <div class="inp">
+                 <label for="password"></label>
+                 <i class="fa-solid fa-lock"></i>
+                 <input type="password" name="password" id="password" class="input" placeholder="Contraseña*" required></input>
+              </div>
+     
+              <button class="submit" >Iniciar sesión
+                 <i class="fas fa-paper-plane"></i>
+              </button>
+             
+             
+           </form>
+         </div></center>
+     </section>
+    
+    
+    <section>
+    <center><table></center>
+        <colgroup>
+            
+            <col style="background-color: lightgray;" span="3">
+        </colgroup>
+        <tr>
+            <th>Tema</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>Reacción de Mg + O<sub>2</sub></td>
+            <td>01/04/2025</td>
+            <td class="status"><i class="fa-solid fa-check-circle"></i> Completado</td>
+        </tr>
+        <tr>
+            <td>Estudio del H<sub>2</sub>O en distintas fases</td>
+            <td>02/04/2025</td>
+            <td class="status"><i class="fa-solid fa-check-circle"></i> Completado</td>
+        </tr>
+    </table>
+</section>
+
+    
+  
+
+    
+
+
+
+    <section id="materiales">
+    <h2>MATERIALES Y METODOS</h2>
+    <br>
+    <h3>Materiales</h3>
+    <br>
+    <ol>
+        <li>Láser (puntero láser de baja potencia).</li>
+        <li>Placa con doble rendija (puede ser una lámina de afición o fabricada con precisión).</li>
+        <li>Pantalla (una pared o papel blanco).</li>
+        <li>Regla o micrómetro (para medir la separación de franjas).</li>
+      
+    </ol>
+    <br>
+
+   <h3>Metodos</h3>
+        <ul>
+            <br>
+            <li>Montaje básico (fotones):</li>
+            <li>Ilumina una placa con dos rendijas estrechas (∼0.1 mm de separación) usando un láser.</li>
+            <li>Proyecta el patrón resultante sobre una pantalla blanca.</li>
+            <li>Observación: Aparecen franjas de interferencia (máximos y mínimos de luz).</li>
+           
+        </ul>
+    </section>
+    
+  
+    
+
+    <section>
+        <h2>Video Educativo</h2>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8urGTdEioOQ?si=AiPA85RFp3B7ct-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </iframe>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Instituto de Ciencias Innovadoras</p>
+       <p>
+           <a href="https://x.com/"><img src="IconoTwitter.jpg" width="20"HEIGHT="20"alt="Twitter"></a>
+           <a href="https://www.instagram.com/"><img src="IconoInstagram.png" width="20" HEIGHT="20"alt="Instagram"></a>
+       </p>
+   </footer>
+
+</body>
+</html>
